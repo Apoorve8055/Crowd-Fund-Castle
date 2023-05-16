@@ -10,6 +10,7 @@ export default {
       xl: "1440px",
     },
     colors: {
+      sun: "#ffeb3b",
       light: {
         backgroundColor: "#fff",
         cardBgColor: "#f9f9fa",
@@ -28,6 +29,12 @@ export default {
       serif: ["Merriweather", "serif"],
     },
     extend: {
+      height: {
+        "80vh": "calc(100vh - 20vh)",
+      },
+      boxShadow: {
+        custom: "0px 0px 16px rgba(0, 0, 0, 0.2)",
+      },
       spacing: {
         128: "32rem",
         144: "36rem",

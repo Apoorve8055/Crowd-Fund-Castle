@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { BsFillCloudMoonFill, BsSunFill } from "react-icons/bs";
 
 const DarkModeToggle = () => {
   const [darkMode, setDarkMode] = useState(
@@ -15,13 +16,16 @@ const DarkModeToggle = () => {
   }, [darkMode]);
 
   return (
-    <div>
-      <div
-        className="px-4 py-2 bg-dark-secondaryTextColor rounded-md cursor-pointer"
-        onClick={() => handleToggle()}
-      >
-        DarkModeToggle
-      </div>
+    <div
+      className="flex justify-center items-center gap-4 cursor-pointer mb-2 dark:text-dark-secondaryTextColor"
+      onClick={() => handleToggle()}
+    >
+      {darkMode ? (
+        <BsSunFill className="w-8 h-8 mt-2" />
+      ) : (
+        <BsFillCloudMoonFill className="w-8 h-8 mt-2" />
+      )}
+      <div className="text-2xl font-bold sm:hidden">Mode</div>
     </div>
   );
 };
