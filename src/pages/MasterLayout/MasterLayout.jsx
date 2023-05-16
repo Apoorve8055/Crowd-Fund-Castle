@@ -1,10 +1,16 @@
 import { Outlet } from "react-router-dom";
+import Footer from "../../components/Footer/Footer";
+import SideBar from "../../components/SideBar/Sidebar";
+import PrivatecHeader from "../../components/Header/PrivateHeader";
 
 const MasterLayout = () => {
   return (
-    <div>
+    <main>
+      <PrivatecHeader />
+      <SideBar />
       <Outlet />
-    </div>
+      <Footer />
+    </main>
   );
 };
 
