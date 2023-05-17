@@ -1,0 +1,1004 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "property_name": "Whitefin",
+      "location": {
+        "place": "Panama City Beach, Florida"
+      },
+      "property_images": [
+        "https://cdn.pixabay.com/photo/2016/11/29/03/53/house-1867187_960_720.jpg",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 5
+      },
+      "raw_property_data": {
+        "Bedrooms": 5,
+        "Bathrooms": 4,
+        "Beds": 8,
+        "Sleeps": 12,
+        "Property type": "House",
+        "Living space": "2,589 Sq Ft",
+        "Lot size": "4,791 Sq Ft",
+        "Year built": 2022,
+        "Location": "Panama City Beach, Florida",
+        "Amenities": [
+          "Near ocean",
+          "Smart tv",
+          "Pool table",
+          "Wireless internet",
+          "EV charging",
+          "Smart thermostat",
+          "Laptop friendly workspace",
+          "BBQ grill",
+          "Essentials",
+          "Beach essentials included"
+        ],
+        "Overview": "Whitefin is a newly finished and freshly upgraded 5-bedroom, 4-bathroom house in Panama City Beach, Florida. It can accommodate up to 12 guests and is located just minutes away from the beach. The property offers a range of amenities, including a smart TV, pool table, wireless internet, EV charging, and a laptop-friendly workspace. Guests can also enjoy beach essentials, relax in the outdoor beach shower, and use the private backyard space with a BBQ grill. The property offers privacy and modern upgrades, making it an ideal vacation rental."
+      },
+      "Expected Payout Date": "November 2023",
+      "Financing": {
+        "Loan-to-Value (LTV)": "100%",
+        "Interest rate": "0%",
+        "Loan term": "0 yrs"
+      },
+      "The market": {
+        "Panama City Beach, Florida": {
+          "Market grade": "B",
+          "Rental demand": "63%",
+          "Seasonality": "21%",
+          "Regulation": "72%",
+          "Investability": "81%",
+          "Revenue growth": "31%"
+        }
+      },
+      "Average daily rate": "$1,154.00",
+      "Average occupancy": "53%",
+      "Average revenue": "$14,490.00",
+      "Zillow home values": "15% 5-year historical average"
+    },
+    {
+      "id": 2,
+      "property_name": "Oceanview Paradise",
+      "location": {
+        "place": "Malibu, California"
+      },
+      "property_images": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 4
+      },
+      "raw_property_data": {
+        "Bedrooms": 4,
+        "Bathrooms": 3,
+        "Beds": 6,
+        "Sleeps": 8,
+        "Property type": "Villa",
+        "Living space": "3,000 Sq Ft",
+        "Lot size": "10,000 Sq Ft",
+        "Year built": 2021,
+        "Location": "Malibu, California",
+        "Amenities": [
+          "Ocean view",
+          "Private pool",
+          "Outdoor kitchen",
+          "Fire pit",
+          "Gym",
+          "Home theater",
+          "Wi-Fi",
+          "Parking",
+          "Air conditioning",
+          "Security system"
+        ],
+        "Overview": "Oceanview Paradise is a stunning 4-bedroom, 3-bathroom villa located in the scenic coastal city of Malibu, California. This luxurious property offers breathtaking ocean views, a private pool, an outdoor kitchen, a fire pit, a gym, and a home theater. With spacious living areas, stylish decor, and top-notch amenities, Oceanview Paradise provides an unforgettable vacation experience. Guests can enjoy nearby beaches, explore Malibu's attractions, and indulge in the vibrant coastal lifestyle.",
+        "Expected Payout Date": "December 2023"
+      },
+      "Financing": {
+        "Loan-to-Value (LTV)": "80%",
+        "Interest rate": "3.5%",
+        "Loan term": "20 yrs"
+      },
+      "The market": {
+        "Malibu, California": {
+          "Market grade": "A",
+          "Rental demand": "80%",
+          "Seasonality": "12%",
+          "Regulation": "90%",
+          "Investability": "95%",
+          "Revenue growth": "45%"
+        }
+      },
+      "Average daily rate": "$2,500.00",
+      "Average occupancy": "65%",
+      "Average revenue": "$48,750.00",
+      "Zillow home values": "20% 5-year historical average"
+    },
+    {
+      "id": 3,
+      "property_name": "Mountain Retreat",
+      "location": {
+        "place": "Aspen, Colorado"
+      },
+      "property_images": [
+        "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1100&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 6
+      },
+      "raw_property_data": {
+        "Bedrooms": 6,
+        "Bathrooms": 5,
+        "Beds": 12,
+        "Sleeps": 16,
+        "Property type": "Chalet",
+        "Living space": "4,500 Sq Ft",
+        "Lot size": "1 acre",
+        "Year built": 2020,
+        "Location": "Aspen, Colorado",
+        "Amenities": [
+          "Mountain view",
+          "Ski-in/ski-out",
+          "Hot tub",
+          "Sauna",
+          "Fireplace",
+          "Home office",
+          "Game room",
+          "Wi-Fi",
+          "Parking",
+          "Heating"
+        ],
+        "Overview": "Escape to the breathtaking beauty of Aspen, Colorado, and indulge in a luxurious stay at Mountain Retreat. This 6-bedroom, 5-bathroom chalet offers stunning mountain views, convenient ski-in/ski-out access, a hot tub, a sauna, a fireplace, a home office, and a game room. With ample living space, upscale furnishings, and modern amenities, Mountain Retreat provides the perfect sanctuary for relaxation and outdoor adventure. Guests can enjoy skiing, snowboarding, hiking, and exploring the vibrant town of Aspen.",
+        "Expected Payout Date": "January 2024"
+      },
+      "Financing": {
+        "Loan-to-Value (LTV)": "70%",
+        "Interest rate": "4%",
+        "Loan term": "30 yrs"
+      },
+      "The market": {
+        "Aspen, Colorado": {
+          "Market grade": "A+",
+          "Rental demand": "90%",
+          "Seasonality": "15%",
+          "Regulation": "85%",
+          "Investability": "99%",
+          "Revenue growth": "55%"
+        }
+      },
+      "Average daily rate": "$3,000.00",
+      "Average occupancy": "75%",
+      "Average revenue": "$67,500.00",
+      "Zillow home values": "25% 5-year historical average"
+    },
+    {
+      "id": 4,
+      "property_name": "Seaside Villa",
+      "location": {
+        "place": "Cancun, Mexico"
+      },
+      "property_images": [
+        "https://cdn.pixabay.com/photo/2016/11/29/03/53/house-1867187_960_720.jpg",
+        "https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1213&q=80",
+        "https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 3
+      },
+      "raw_property_data": {
+        "Bedrooms": 3,
+        "Bathrooms": 3,
+        "Beds": 6,
+        "Sleeps": 8,
+        "Property type": "Villa",
+        "Living space": "2,000 Sq Ft",
+        "Lot size": "5,000 Sq Ft",
+        "Year built": 2023,
+        "Location": "Cancun, Mexico",
+        "Amenities": [
+          "Oceanfront",
+          "Private beach access",
+          "Swimming pool",
+          "Terrace",
+          "Outdoor dining",
+          "Barbecue",
+          "Wi-Fi",
+          "Air conditioning",
+          "Security system",
+          "Parking"
+        ],
+        "Overview": "Experience the ultimate beachfront retreat at Seaside Villa, a luxurious 3-bedroom, 3-bathroom villa located in Cancun, Mexico. With stunning ocean views, private beach access, a swimming pool, a terrace, and outdoor dining with a barbecue, this villa offers the perfect setting for relaxation and entertainment. The villa is elegantly furnished, equipped with modern amenities, and provides a seamless blend of indoor and outdoor living. Guests can enjoy the vibrant culture, pristine beaches, and world-class attractions of Cancun.",
+        "Expected Payout Date": "February 2024"
+      },
+      "Financing": {
+        "Loan-to-Value (LTV)": "75%",
+        "Interest rate": "3.75%",
+        "Loan term": "25 yrs"
+      },
+      "The market": {
+        "Cancun, Mexico": {
+          "Market grade": "A",
+          "Rental demand": "85%",
+          "Seasonality": "18%",
+          "Regulation": "80%",
+          "Investability": "92%",
+          "Revenue growth": "40%"
+        }
+      },
+      "Average daily rate": "$2,000.00",
+      "Average occupancy": "70%",
+      "Average revenue": "$42,000.00",
+      "Zillow home values": "18% 5-year historical average"
+    },
+    {
+      "id": 5,
+      "property_name": "Coastal Getaway",
+      "location": {
+        "place": "Outer Banks, North Carolina"
+      },
+      "property_images": [
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=658&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 4
+      },
+      "raw_property_data": {
+        "Bedrooms": 4,
+        "Bathrooms": 3,
+        "Beds": 6,
+        "Sleeps": 10,
+        "Property type": "Beach House",
+        "Living space": "2,200 Sq Ft",
+        "Lot size": "8,000 Sq Ft",
+        "Year built": 2022,
+        "Location": "Outer Banks, North Carolina",
+        "Amenities": [
+          "Oceanfront",
+          "Private beach access",
+          "Swimming pool",
+          "Hot tub",
+          "Outdoor shower",
+          "Deck",
+          "Grill",
+          "Wi-Fi",
+          "Parking",
+          "Air conditioning"
+        ],
+        "Overview": "Escape to the beautiful Outer Banks of North Carolina and enjoy a relaxing stay at Coastal Getaway. This 4-bedroom, 3-bathroom beach house offers stunning oceanfront views, private beach access, a swimming pool, a hot tub, an outdoor shower, a deck, and a grill. With comfortable accommodations and a range of amenities, Coastal Getaway is the perfect retreat for beach lovers and outdoor enthusiasts. Guests can explore the pristine beaches, visit historic sites, and indulge in fresh seafood.",
+        "Expected Payout Date": "March 2024"
+      },
+      "Financing": {
+        "Loan-to-Value (LTV)": "80%",
+        "Interest rate": "4%",
+        "Loan term": "25 yrs"
+      },
+      "The market": {
+        "Outer Banks, North Carolina": {
+          "Market grade": "B+",
+          "Rental demand": "75%",
+          "Seasonality": "30%",
+          "Regulation": "70%",
+          "Investability": "85%",
+          "Revenue growth": "20%"
+        }
+      },
+      "Average daily rate": "$800.00",
+      "Average occupancy": "65%",
+      "Average revenue": "$15,600.00",
+      "Zillow home values": "12% 5-year historical average"
+    },
+    {
+      "id": 6,
+      "property_name": "City View Condo",
+      "location": {
+        "place": "New York City, New York"
+      },
+      "property_images": [
+        "https://images.unsplash.com/photo-1460317442991-0ec209397118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "https://images.unsplash.com/photo-1537726235470-8504e3beef77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 2
+      },
+      "raw_property_data": {
+        "Bedrooms": 2,
+        "Bathrooms": 2,
+        "Beds": 4,
+        "Sleeps": 6,
+        "Property type": "Condo",
+        "Living space": "1,200 Sq Ft",
+        "Year built": 2019,
+        "Location": "New York City, New York",
+        "Amenities": [
+          "City view",
+          "Fitness center",
+          "24/7 concierge",
+          "Rooftop terrace",
+          "Wi-Fi",
+          "Parking",
+          "Air conditioning",
+          "Elevator",
+          "Security"
+        ],
+        "Overview": "Experience the vibrant energy of New York City from the comfort of City View Condo. This modern 2-bedroom, 2-bathroom condo offers stunning city views, a fitness center, a 24/7 concierge, a rooftop terrace, and a range of amenities for a convenient and luxurious stay. Located in the heart of the city, guests can explore iconic landmarks, visit world-class museums, dine at renowned restaurants, and immerse themselves in the vibrant culture of New York.",
+        "Expected Payout Date": "April 2024"
+      },
+      "Financing": {
+        "Loan-to-Value (LTV)": "75%",
+        "Interest rate": "3.8%",
+        "Loan term": "30 yrs"
+      },
+      "The market": {
+        "New York City, New York": {
+          "Market grade": "A+",
+          "Rental demand": "95%",
+          "Seasonality": "10%",
+          "Regulation": "90%",
+          "Investability": "99%",
+          "Revenue growth": "60%"
+        }
+      },
+      "Average daily rate": "$400.00",
+      "Average occupancy": "80%",
+      "Average revenue": "$9,600.00",
+      "Zillow home values": "30% 5-year historical average"
+    },
+    {
+      "id": 7,
+      "property_name": "Mountain Cabin",
+      "location": {
+        "place": "Lake Tahoe, California"
+      },
+      "property_images": [
+        "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=874&q=80",
+        "https://plus.unsplash.com/premium_photo-1678170398160-e860e6e6fd4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 3
+      },
+      "raw_property_data": {
+        "Bedrooms": 3,
+        "Bathrooms": 2,
+        "Beds": 6,
+        "Sleeps": 8,
+        "Property type": "Cabin",
+        "Living space": "1,800 Sq Ft",
+        "Lot size": "0.5 acre",
+        "Year built": 2020,
+        "Location": "Lake Tahoe, California",
+        "Amenities": [
+          "Mountain view",
+          "Hot tub",
+          "Fireplace",
+          "Outdoor seating",
+          "Grill",
+          "Wi-Fi",
+          "Parking",
+          "Heating",
+          "Pet-friendly"
+        ],
+        "Overview": "Experience the beauty of Lake Tahoe and enjoy a cozy stay at Mountain Cabin. This 3-bedroom, 2-bathroom cabin offers picturesque mountain views, a hot tub, a fireplace, outdoor seating, and a grill. With its rustic charm and modern comforts, Mountain Cabin provides a peaceful retreat for nature lovers and outdoor enthusiasts. Guests can explore hiking trails, go skiing or snowboarding in the winter, and relax in theserene atmosphere of Lake Tahoe.",
+        "Expected Payout Date": "May 2024"
+      },
+      "Financing": {
+        "Loan-to-Value (LTV)": "65%",
+        "Interest rate": "4.2%",
+        "Loan term": "25 yrs"
+      },
+      "The market": {
+        "Lake Tahoe, California": {
+          "Market grade": "A",
+          "Rental demand": "80%",
+          "Seasonality": "25%",
+          "Regulation": "85%",
+          "Investability": "95%",
+          "Revenue growth": "50%"
+        }
+      },
+      "Average daily rate": "$350.00",
+      "Average occupancy": "75%",
+      "Average revenue": "$7,875.00",
+      "Zillow home values": "22% 5-year historical average"
+    },
+    {
+      "id": 8,
+      "property_name": "Beachfront Bungalow",
+      "location": {
+        "place": "Maui, Hawaii"
+      },
+      "property_images": [
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "https://images.unsplash.com/photo-1616046229478-9901c5536a45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 2
+      },
+      "raw_property_data": {
+        "Bedrooms": 2,
+        "Bathrooms": 2,
+        "Beds": 4,
+        "Sleeps": 6,
+        "Property type": "Bungalow",
+        "Living space": "1,500 Sq Ft",
+        "Lot size": "10,000 Sq Ft",
+        "Year built": 2022,
+        "Location": "Maui, Hawaii",
+        "Amenities": [
+          "Beachfront",
+          "Private access to the beach",
+          "Swimming pool",
+          "Outdoor shower",
+          "Outdoor dining",
+          "Barbecue",
+          "Wi-Fi",
+          "Air conditioning",
+          "Parking",
+          "Security"
+        ],
+        "Overview": "Escape to the tropical paradise of Maui and enjoy a beachfront getaway at Beachfront Bungalow. This charming 2-bedroom, 2-bathroom bungalow offers direct access to the beach, a swimming pool, an outdoor shower, outdoor dining with a barbecue, and a range of amenities for a relaxing stay. Guests can bask in the sun, swim in the turquoise waters, and experience the laid-back island lifestyle of Maui.",
+        "Expected Payout Date": "June 2024"
+      },
+      "Financing": {
+        "Loan-to-Value (LTV)": "70%",
+        "Interest rate": "3.9%",
+        "Loan term": "30 yrs"
+      },
+      "The market": {
+        "Maui, Hawaii": {
+          "Market grade": "A+",
+          "Rental demand": "90%",
+          "Seasonality": "20%",
+          "Regulation": "95%",
+          "Investability": "98%",
+          "Revenue growth": "55%"
+        }
+      },
+      "Average daily rate": "$600.00",
+      "Average occupancy": "80%",
+      "Average revenue": "$14,400.00",
+      "Zillow home values": "28% 5-year historical average"
+    },
+    {
+      "id": 9,
+      "property_name": "Urban Loft",
+      "location": {
+        "place": "Chicago, Illinois"
+      },
+      "property_images": [
+        "https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
+        "hhttps://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 1
+      },
+      "raw_property_data": {
+        "Bedrooms": 1,
+        "Bathrooms": 1,
+        "Beds": 2,
+        "Sleeps": 4,
+        "Property type": "Loft",
+        "Living space": "900 Sq Ft",
+        "Year built": 2018,
+        "Location": "Chicago, Illinois",
+        "Amenities": [
+          "City view",
+          "Fitness center",
+          "24/7 concierge",
+          "Rooftop deck",
+          "Wi-Fi",
+          "Parking",
+          "Air conditioning",
+          "Elevator",
+          "Security"
+        ],
+        "Overview": "Experience the bustling city life of Chicago from the comfort of Urban Loft. This stylish 1-bedroom, 1-bathroom loft offers city views, a fitness center, a 24/7 concierge, a rooftop deck, and a range of amenities for a modern and convenient stay. Located in the vibrant downtown area, guests can explore the city's renowned architecture, visit cultural institutions, dine at world-class restaurants, and enjoy the vibrant nightlife of Chicago.",
+        "Expected Payout Date": "July 2024"
+      },
+      "Financing": {
+        "Loan-to-Value (LTV)": "75%",
+        "Interest rate": "3.8%",
+        "Loan term": "30 yrs"
+      },
+      "The market": {
+        "Chicago, Illinois": {
+          "Market grade": "A",
+          "Rental demand": "85%",
+          "Seasonality": "15%",
+          "Regulation": "80%",
+          "Investability": "90%",
+          "Revenue growth": "35%"
+        }
+      },
+      "Average daily rate": "$250.00",
+      "Average occupancy": "75%",
+      "Average revenue": "$5,625.00",
+      "Zillow home values": "18% 5-year historical average"
+    },
+    {
+      "id": 10,
+      "property_name": "Luxury Villa",
+      "location": {
+        "place": "Bali, Indonesia"
+      },
+      "property_images": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=875&q=80",
+        "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 5
+      },
+      "raw_property_data": {
+        "Bedrooms": 5,
+        "Bathrooms": 5,
+        "Beds": 10,
+        "Sleeps": 12,
+        "Property type": "Villa",
+        "Living space": "5,000 Sq Ft",
+        "Lot size": "0.25 acre",
+        "Year built": 2021,
+        "Location": "Bali, Indonesia",
+        "Amenities": [
+          "Infinity pool",
+          "Ocean view",
+          "Private garden",
+          "Outdoor dining",
+          "Barbecue",
+          "Wi-Fi",
+          "Air conditioning",
+          "Parking",
+          "Security"
+        ],
+        "Overview": "Indulge in the luxury and tranquility of Bali at Luxury Villa. This stunning 5-bedroom, 5-bathroom villa offers an infinity pool, ocean views, a private garden, outdoor dining with a barbecue, and a range of luxurious amenities for an unforgettable stay. Located in the beautiful island of Bali, guests can immerse themselves in the vibrant culture, explore stunning beaches, visit ancient temples, and experience the warm hospitality of the Balinese people.",
+        "Expected Payout Date": "August 2024"
+      },
+      "Financing": {
+        "Loan-to-Value (LTV)": "60%",
+        "Interest rate": "4.5%",
+        "Loan term": "25 yrs"
+      },
+      "The market": {
+        "Bali, Indonesia": {
+          "Market grade": "A+",
+          "Rental demand": "95%",
+          "Seasonality": "30%",
+          "Regulation": "90%",
+          "Investability": "99%",
+          "Revenue growth": "70%"
+        }
+      },
+      "Average daily rate": "$800.00",
+      "Average occupancy": "90%",
+      "Average revenue": "$21,600.00",
+      "Zillow home values": "35% 5-year historical average"
+    },
+    {
+      "id": 11,
+      "property_name": "Tropical Paradise",
+      "location": {
+        "place": "Bali, Indonesia"
+      },
+      "property_images": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 6
+      },
+      "raw_property_data": {
+        "Bedrooms": 6,
+        "Bathrooms": 7,
+        "Beds": 12,
+        "Sleeps": 14,
+        "Property type": "Villa",
+        "Living space": "5,000 Sq Ft",
+        "Lot size": "1 acre",
+        "Year built": 2021,
+        "Location": "Bali, Indonesia",
+        "Amenities": [
+          "Ocean view",
+          "Private pool",
+          "Outdoor dining",
+          "Garden",
+          "Wi-Fi",
+          "Parking",
+          "Air conditioning",
+          "Security system",
+          "Chef on request",
+          "Housekeeping"
+        ],
+        "Overview": "Indulge in the beauty of Bali, Indonesia, at Tropical Paradise, a luxurious 6-bedroom, 7-bathroom villa with breathtaking ocean views. This villa features a private pool, outdoor dining, a garden, and a range of amenities for a memorable stay. With its spacious living areas, elegant decor, and impeccable service, Tropical Paradise offers the perfect retreat for relaxation and rejuvenation. Guests can enjoy the rich culture, stunning beaches, and vibrant nightlife of Bali."
+      },
+      "Financing": {
+        "Loan-to-Value (LTV)": "75%",
+        "Interest rate": "4.5%",
+        "Loan term": "25 yrs"
+      },
+      "The market": {
+        "Bali, Indonesia": {
+          "Market grade": "B+",
+          "Rental demand": "80%",
+          "Seasonality": "25%",
+          "Regulation": "70%",
+          "Investability": "90%",
+          "Revenue growth": "35%"
+        }
+      },
+      "Average daily rate": "$2,500.00",
+      "Average occupancy": "60%",
+      "Average revenue": "$45,000.00",
+      "Zillow home values": "15% 5-year historical average"
+    },
+    {
+      "id": 13,
+      "property_name": "Lakefront Cabin",
+      "location": {
+        "place": "Lake Tahoe, California"
+      },
+      "property_images": [
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "https://images.unsplash.com/photo-1556702571-3e11dd2b1a92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 3
+      },
+      "raw_property_data": {
+        "Bedrooms": 3,
+        "Bathrooms": 2,
+        "Beds": 5,
+        "Sleeps": 8,
+        "Property type": "Cabin",
+        "Living space": "1,500 Sq Ft",
+        "Lot size": "10,000 Sq Ft",
+        "Year built": 2015,
+        "Location": "Lake Tahoe, California",
+        "Amenities": [
+          "Lakefront",
+          "Private dock",
+          "Hot tub",
+          "Deck",
+          "Grill",
+          "Fireplace",
+          "Wi-Fi",
+          "Parking",
+          "Heating",
+          "Pet-friendly"
+        ],
+        "Overview": "Enjoy a peaceful retreat at the Lakefront Cabin in Lake Tahoe, California. This charming cabin features 3 bedrooms, 2 bathrooms, and can accommodate up to 8 guests. With a private dock, hot tub, deck with a grill, fireplace, and stunning lake views, it offers the perfect setting for relaxation and outdoor activities. Guests can enjoy swimming, fishing, boating, and exploring the beautiful surroundings. The cabin is pet-friendly, ensuring everyone can join in on the fun.",
+        "Expected Payout Date": "April 2024"
+      },
+      "Financing": {
+        "Loan-to-Value (LTV)": "60%",
+        "Interest rate": "3.75%",
+        "Loan term": "20 yrs"
+      },
+      "The market": {
+        "Lake Tahoe, California": {
+          "Market grade": "B+",
+          "Rental demand": "75%",
+          "Seasonality": "40%",
+          "Regulation": "80%",
+          "Investability": "90%",
+          "Revenue growth": "15%"
+        }
+      },
+      "Average daily rate": "$400.00",
+      "Average occupancy": "60%",
+      "Average revenue": "$7,200.00",
+      "Zillow home values": "10% 5-year historical average"
+    },
+    {
+      "id": 12,
+      "property_name": "Oceanfront Paradise",
+      "location": {
+        "place": "Maui, Hawaii"
+      },
+      "property_images": [
+        "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 5
+      },
+      "raw_property_data": {
+        "Bedrooms": 5,
+        "Bathrooms": 5,
+        "Beds": 10,
+        "Sleeps": 14,
+        "Property type": "Villa",
+        "Living space": "4,000 Sq Ft",
+        "Lot size": "0.5 acre",
+        "Year built": 2022,
+        "Location": "Maui, Hawaii",
+        "Amenities": [
+          "Oceanfront",
+          "Private pool",
+          "Outdoor dining",
+          "Gym",
+          "Media room",
+          "Wi-Fi",
+          "Parking",
+          "Air conditioning",
+          "BBQ grill",
+          "Security system"
+        ],
+        "Overview": "Experience the ultimate luxury at Oceanfront Paradise, a magnificent 5-bedroom, 5-bathroom villa located on the beautiful island of Maui, Hawaii. This stunning property offers direct oceanfront access, a private pool, outdoor dining, a gym, a media room, and a range of top-notch amenities. With breathtaking views, elegant interiors, and a prime location, Oceanfront Paradise is the perfect retreat for a memorable vacation in paradise.",
+        "Expected Payout Date": "April 2024"
+      },
+      "Financing": {
+        "Loan-to-Value (LTV)": "75%",
+        "Interest rate": "3.75%",
+        "Loan term": "30 yrs"
+      },
+      "The market": {
+        "Maui, Hawaii": {
+          "Market grade": "A+",
+          "Rental demand": "95%",
+          "Seasonality": "10%",
+          "Regulation": "85%",
+          "Investability": "98%",
+          "Revenue growth": "60%"
+        }
+      },
+      "Average daily rate": "$3,500.00",
+      "Average occupancy": "80%",
+      "Average revenue": "$98,000.00",
+      "Zillow home values": "22% 5-year historical average"
+    },
+    {
+      "id": 13,
+      "property_name": "Lakefront Cabin",
+      "location": {
+        "place": "Lake Tahoe, California"
+      },
+      "property_images": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "https://images.unsplash.com/photo-1606744888344-493238951221?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 3
+      },
+      "raw_property_data": {
+        "Bedrooms": 3,
+        "Bathrooms": 2,
+        "Beds": 6,
+        "Sleeps": 8,
+        "Property type": "Cabin",
+        "Living space": "1,500 Sq Ft",
+        "Lot size": "0.25 acre",
+        "Year built": 2005,
+        "Location": "Lake Tahoe, California",
+        "Amenities": [
+          "Lakefront",
+          "Private dock",
+          "Fireplace",
+          "Outdoor seating",
+          "BBQ grill",
+          "Wi-Fi",
+          "Parking",
+          "Air conditioning",
+          "Pet-friendly"
+        ],
+        "Overview": "Escape to the tranquil beauty of Lake Tahoe with a stay at our Lakefront Cabin. This charming 3-bedroom, 2-bathroom cabin offers stunning lake views, a private dock, a cozy fireplace, outdoor seating, and a range of modern amenities. Whether you're looking to relax, enjoy water activities, or explore the surrounding nature, our Lakefront Cabin provides the perfect retreat.",
+        "Expected Payout Date": "May 2023"
+      },
+      "Financing": {
+        "Loan-to-Value (LTV)": "80%",
+        "Interest rate": "4.25%",
+        "Loan term": "20 yrs"
+      },
+      "The market": {
+        "Lake Tahoe, California": {
+          "Market grade": "A",
+          "Rental demand": "90%",
+          "Seasonality": "15%",
+          "Regulation": "80%",
+          "Investability": "95%",
+          "Revenue growth": "45%"
+        }
+      },
+      "Average daily rate": "$600.00",
+      "Average occupancy": "70%",
+      "Average revenue": "$15,000.00",
+      "Zillow home values": "18% 5-year historical average"
+    },
+    {
+      "id": 14,
+      "property_name": "Luxury Penthouse",
+      "location": {
+        "place": "New York City, New York"
+      },
+      "property_images": [
+        "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "https://plus.unsplash.com/premium_photo-1678297269980-16f4be3a15a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 4
+      },
+      "raw_property_data": {
+        "Bedrooms": 4,
+        "Bathrooms": 4,
+        "Beds": 8,
+        "Sleeps": 10,
+        "Property type": "Penthouse",
+        "Living space": "3,000Sq Ft",
+        "Year built": 2010,
+        "Location": "New York City, New York",
+        "Amenities": [
+          "City views",
+          "Private terrace",
+          "Gourmet kitchen",
+          "Luxury furnishings",
+          "Concierge service",
+          "Fitness center",
+          "Swimming pool",
+          "Parking",
+          "Wi-Fi"
+        ],
+        "Overview": "Experience the height of luxury in the heart of New York City with our stunning Luxury Penthouse. This 4-bedroom, 4-bathroom penthouse offers breathtaking city views, a private terrace, a gourmet kitchen, and elegant furnishings. Guests also have access to exclusive amenities, including a concierge service, fitness center, and swimming pool. Indulge in the ultimate urban retreat with our Luxury Penthouse.",
+        "Expected Payout Date": "June 2023"
+      },
+      "Financing": {
+        "Loan-to-Value (LTV)": "75%",
+        "Interest rate": "3.75%",
+        "Loan term": "30 yrs"
+      },
+      "The market": {
+        "New York City, New York": {
+          "Market grade": "A+",
+          "Rental demand": "95%",
+          "Seasonality": "10%",
+          "Regulation": "85%",
+          "Investability": "90%",
+          "Revenue growth": "30%"
+        }
+      },
+      "Average daily rate": "$1,200.00",
+      "Average occupancy": "80%",
+      "Average revenue": "$28,800.00",
+      "Zillow home values": "30% 5-year historical average"
+    },
+    {
+      "id": 15,
+      "property_name": "Beachfront Villa",
+      "location": {
+        "place": "Maui, Hawaii"
+      },
+      "property_images": [
+        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=978&q=80",
+        "https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1100&q=80",
+        "https://images.unsplash.com/photo-1606744824163-985d376605aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+      ],
+      "offering_amount": 0,
+      "price_per_share": 0,
+      "open_for_invest": false,
+      "total_investors": 0,
+      "funded_percentage": 0,
+      "property_details": {
+        "bedrooms": 5
+      },
+      "raw_property_data": {
+        "Bedrooms": 5,
+        "Bathrooms": 5,
+        "Beds": 10,
+        "Sleeps": 12,
+        "Property type": "Villa",
+        "Living space": "4,500 Sq Ft",
+        "Lot size": "0.5 acre",
+        "Year built": 2012,
+        "Location": "Maui, Hawaii",
+        "Amenities": [
+          "Beachfront",
+          "Private pool",
+          "Outdoor dining",
+          "BBQ grill",
+          "Media room",
+          "Air conditioning",
+          "Parking",
+          "Wi-Fi"
+        ],
+        "Overview": "Discover the epitome of luxury living in paradise with our Beachfront Villa in Maui. This exquisite 5-bedroom, 5-bathroom villa offers direct beach access, a private pool, outdoor dining, and a media room. Immerse yourself in the beauty of Maui while enjoying top-notch amenities and unparalleled comfort. Experience the vacation of a lifetime at our Beachfront Villa.",
+        "Expected Payout Date": "July 2023"
+      },
+      "Financing": {
+        "Loan-to-Value (LTV)": "70%",
+        "Interest rate": "4.00%",
+        "Loan term": "25 yrs"
+      },
+      "The market": {
+        "Maui, Hawaii": {
+          "Market grade": "A+",
+          "Rental demand": "95%",
+          "Seasonality": "20%",
+          "Regulation": "90%",
+          "Investability": "95%",
+          "Revenue growth": "35%"
+        }
+      },
+      "Average daily rate": "$2,500.00",
+      "Average occupancy": "90%",
+      "Average revenue": "$67,500.00",
+      "Zillow home values": "25% 5-year historical average"
+    }
+  ]
+}
