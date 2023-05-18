@@ -25,6 +25,7 @@ export default {
       },
     },
     fontFamily: {
+      DM: ["DM Sans"],
       sans: ["Graphik", "sans-serif"],
       serif: ["Merriweather", "serif"],
     },

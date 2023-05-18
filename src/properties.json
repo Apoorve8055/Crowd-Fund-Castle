@@ -75,7 +75,7 @@
       ],
       "offering_amount": 0,
       "price_per_share": 0,
-      "open_for_invest": false,
+      "open_for_invest": true,
       "total_investors": 0,
       "funded_percentage": 0,
       "property_details": {
@@ -140,7 +140,7 @@
       "price_per_share": 0,
       "open_for_invest": false,
       "total_investors": 0,
-      "funded_percentage": 0,
+      "funded_percentage": 100,
       "property_details": {
         "bedrooms": 6
       },
@@ -701,7 +701,7 @@
       ],
       "offering_amount": 0,
       "price_per_share": 0,
-      "open_for_invest": false,
+      "open_for_invest": true,
       "total_investors": 0,
       "funded_percentage": 0,
       "property_details": {

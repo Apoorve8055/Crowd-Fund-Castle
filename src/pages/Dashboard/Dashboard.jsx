@@ -1,39 +1,24 @@
 import { useSelector } from "react-redux";
+import Card from "../../components/Card/Card";
 
 const Dashboard = () => {
   const propertiesList = useSelector((state) => state.propertiesList);
   console.log(propertiesList);
   return (
-    <div className="p-4">
-      <div className="text-xl font-bold">All Properties (15)</div>
-      <div className="pt-4 text-x1 text-dark-secondaryTextColor">
-        We have not found any Properties yet
-      </div>
+    <div className="p-5 overflow-y-scroll">
+      <div className="text-xl pb-4 font-bold">All Properties (15)</div>
 
-      <div>
-        <div>
-          <div>image with scroll</div>
-          <div>At right top option Open to invest / Sold Out tags</div>
+      {propertiesList ? (
+        <div className="flex flex-wrap gap-8">
+          {propertiesList.map((item, index) => (
+            <Card item={item} />
+          ))}
         </div>
-        <div>Property Name</div>
-        <div>Location</div>
-        <div>
-          <div>
-            <div>Offering amount</div>
-            <div>$1,410,101.00</div>
-          </div>
-          <div>
-            <div>Price per share</div>
-            <div>$1.00</div>
-          </div>
-          <div>Invest now/View property</div>
+      ) : (
+        <div className="pt-4 text-x1 text-dark-secondaryTextColor">
+          We have not found any Properties yet
         </div>
-        <div>
-          <div>82% funded</div>
-          <div>1,623 investors</div>
-        </div>
-        <div>Progress Bar</div>
-      </div>
+      )}
     </div>
   );
 };
