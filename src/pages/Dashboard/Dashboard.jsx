@@ -5,11 +5,11 @@ const Dashboard = () => {
   const propertiesList = useSelector((state) => state.propertiesList);
   console.log(propertiesList);
   return (
-    <div className="p-5 overflow-y-scroll">
+    <div className="p-5 overflow-y-scroll scrollable-content">
       <div className="text-xl pb-4 font-bold">All Properties (15)</div>
 
       {propertiesList ? (
-        <div className="flex flex-wrap gap-8">
+        <div className="flex flex-wrap gap-8 justify-center sm:justify-start ">
           {propertiesList.map((item, index) => (
             <Card item={item} />
           ))}

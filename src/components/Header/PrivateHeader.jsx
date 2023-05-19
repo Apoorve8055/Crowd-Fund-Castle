@@ -2,8 +2,8 @@ import { IoMenuSharp, IoSearchSharp } from "react-icons/io5";
 
 const PrivateHeader = ({ isMenuOpen, setIsMenuOpen }) => {
   return (
-    <div className=" w-screen p-4 flex items-center justify-between shadow-custom dark:bg-dark-cardBgColor">
-      <div className="text-2xl font-bold capitalize sm:text-3xl">
+    <div className=" p-4 flex items-center justify-between shadow-custom dark:bg-dark-cardBgColor">
+      <div className="font-DM text-2xl font-bold capitalize sm:text-3xl">
         Crowd Fund Castle
       </div>
       <div className="flex gap-4 items-center">

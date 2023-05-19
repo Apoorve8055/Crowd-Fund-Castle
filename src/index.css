@@ -15,6 +15,19 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.scrollable-content::-webkit-scrollbar {
+  width: 0px; /* Width of the scrollbar */
+}
+
+.scrollable-content::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Hide the thumb */
+}
+
+.scrollable-content::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color of the track */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
