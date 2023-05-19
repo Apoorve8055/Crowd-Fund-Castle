@@ -1,9 +1,14 @@
 import { IoMenuSharp, IoSearchSharp } from "react-icons/io5";
+import { useNavigate } from "react-router-dom";
 
 const PrivateHeader = ({ isMenuOpen, setIsMenuOpen }) => {
+  const navigate = useNavigate();
   return (
     <div className=" p-4 flex items-center justify-between shadow-custom dark:bg-dark-cardBgColor">
-      <div className="font-DM text-2xl font-bold capitalize sm:text-3xl">
+      <div
+        className="font-DM text-2xl font-bold capitalize sm:text-3xl cursor-pointer"
+        onClick={() => navigate("/")}
+      >
         Crowd Fund Castle
       </div>
       <div className="flex gap-4 items-center">

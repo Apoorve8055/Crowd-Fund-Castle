@@ -1,15 +1,19 @@
 import { IoLogOut } from "react-icons/io5";
 import DarkModeToggle from "../DarkModeButton/DarkModeToggle";
 import {
-  MdAccountCircle,
   MdOutlineAccountCircle,
   MdOutlineDashboard,
   MdOutlineMoney,
 } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 
 const SideBar = ({ isMenuOpen, setIsMenuOpen }) => {
-  const handleMenu = () => {
+  const navigate = useNavigate();
+
+  const handleMenu = (route) => {
     setIsMenuOpen(false);
+    console.log(route === "dashboard");
+    navigate(`${route === "dashboard" ? "/dashboard" : "/dashboard/" + route}`);
   };
 
   return (
@@ -22,21 +26,21 @@ const SideBar = ({ isMenuOpen, setIsMenuOpen }) => {
         <div className="flex flex-col items-start gap-8 dark:text-dark-secondaryTextColor">
           <div
             className="flex justify-center items-center gap-4 cursor-pointer"
-            onClick={handleMenu}
+            onClick={() => handleMenu("dashboard")}
           >
             <MdOutlineDashboard className="w-8 h-8 mt-2" />
             <div className="text-2xl font-bold sm:hidden">Dashboard</div>
           </div>
           <div
             className="flex justify-center items-center gap-4 cursor-pointer"
-            onClick={handleMenu}
+            onClick={() => handleMenu("portfolio")}
           >
             <MdOutlineMoney className="w-8 h-8 mt-2" />
             <div className="text-2xl font-bold sm:hidden">Portfolio</div>
           </div>
           <div
             className="flex justify-center items-center gap-4 cursor-pointer"
-            onClick={handleMenu}
+            onClick={() => handleMenu("account")}
           >
             <MdOutlineAccountCircle className="w-8 h-8 mt-2" />
             <div className="text-2xl font-bold sm:hidden">Account</div>
