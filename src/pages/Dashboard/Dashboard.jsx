@@ -3,7 +3,7 @@ import Card from "../../components/Card/Card";
 
 const Dashboard = () => {
   const propertiesList = useSelector((state) => state.propertiesList);
-  console.log(propertiesList);
+
   return (
     <div className="p-5 overflow-y-scroll scrollable-content">
       <div className="text-xl pb-4 font-bold">All Properties (15)</div>

@@ -44,11 +44,14 @@
       },
       "Expected Payout Date": "November 2023",
       "Financing": {
+        "Average daily rate": "$1,154.00",
+        "Average occupancy": "53%",
+        "Average revenue": "$14,490.00",
         "Loan-to-Value (LTV)": "100%",
         "Interest rate": "0%",
         "Loan term": "0 yrs"
       },
-      "The market": {
+      "theMarket": {
         "Panama City Beach, Florida": {
           "Market grade": "B",
           "Rental demand": "63%",
@@ -56,11 +59,17 @@
           "Regulation": "72%",
           "Investability": "81%",
           "Revenue growth": "31%"
+        },
+        "New York City, New York": {
+          "Market grade": "A+",
+          "Rental demand": "95%",
+          "Seasonality": "10%",
+          "Regulation": "85%",
+          "Investability": "90%",
+          "Revenue growth": "30%"
         }
       },
-      "Average daily rate": "$1,154.00",
-      "Average occupancy": "53%",
-      "Average revenue": "$14,490.00",
+
       "Zillow home values": "15% 5-year historical average"
     },
     {
@@ -107,11 +116,14 @@
         "Expected Payout Date": "December 2023"
       },
       "Financing": {
+        "Average daily rate": "$2,500.00",
+        "Average occupancy": "65%",
+        "Average revenue": "$48,750.00",
         "Loan-to-Value (LTV)": "80%",
         "Interest rate": "3.5%",
         "Loan term": "20 yrs"
       },
-      "The market": {
+      "theMarket": {
         "Malibu, California": {
           "Market grade": "A",
           "Rental demand": "80%",
@@ -121,9 +133,7 @@
           "Revenue growth": "45%"
         }
       },
-      "Average daily rate": "$2,500.00",
-      "Average occupancy": "65%",
-      "Average revenue": "$48,750.00",
+
       "Zillow home values": "20% 5-year historical average"
     },
     {
@@ -170,11 +180,14 @@
         "Expected Payout Date": "January 2024"
       },
       "Financing": {
+        "Average daily rate": "$3,000.00",
+        "Average occupancy": "75%",
+        "Average revenue": "$67,500.00",
         "Loan-to-Value (LTV)": "70%",
         "Interest rate": "4%",
         "Loan term": "30 yrs"
       },
-      "The market": {
+      "theMarket": {
         "Aspen, Colorado": {
           "Market grade": "A+",
           "Rental demand": "90%",
@@ -184,9 +197,7 @@
           "Revenue growth": "55%"
         }
       },
-      "Average daily rate": "$3,000.00",
-      "Average occupancy": "75%",
-      "Average revenue": "$67,500.00",
+
       "Zillow home values": "25% 5-year historical average"
     },
     {
@@ -234,11 +245,14 @@
         "Expected Payout Date": "February 2024"
       },
       "Financing": {
+        "Average daily rate": "$2,000.00",
+        "Average occupancy": "70%",
+        "Average revenue": "$42,000.00",
         "Loan-to-Value (LTV)": "75%",
         "Interest rate": "3.75%",
         "Loan term": "25 yrs"
       },
-      "The market": {
+      "theMarket": {
         "Cancun, Mexico": {
           "Market grade": "A",
           "Rental demand": "85%",
@@ -248,9 +262,7 @@
           "Revenue growth": "40%"
         }
       },
-      "Average daily rate": "$2,000.00",
-      "Average occupancy": "70%",
-      "Average revenue": "$42,000.00",
+
       "Zillow home values": "18% 5-year historical average"
     },
     {
@@ -298,11 +310,14 @@
         "Expected Payout Date": "March 2024"
       },
       "Financing": {
+        "Average daily rate": "$800.00",
+        "Average occupancy": "65%",
+        "Average revenue": "$15,600.00",
         "Loan-to-Value (LTV)": "80%",
         "Interest rate": "4%",
         "Loan term": "25 yrs"
       },
-      "The market": {
+      "theMarket": {
         "Outer Banks, North Carolina": {
           "Market grade": "B+",
           "Rental demand": "75%",
@@ -312,9 +327,7 @@
           "Revenue growth": "20%"
         }
       },
-      "Average daily rate": "$800.00",
-      "Average occupancy": "65%",
-      "Average revenue": "$15,600.00",
+
       "Zillow home values": "12% 5-year historical average"
     },
     {
@@ -360,11 +373,14 @@
         "Expected Payout Date": "April 2024"
       },
       "Financing": {
+        "Average daily rate": "$400.00",
+        "Average occupancy": "80%",
+        "Average revenue": "$9,600.00",
         "Loan-to-Value (LTV)": "75%",
         "Interest rate": "3.8%",
         "Loan term": "30 yrs"
       },
-      "The market": {
+      "theMarket": {
         "New York City, New York": {
           "Market grade": "A+",
           "Rental demand": "95%",
@@ -374,9 +390,7 @@
           "Revenue growth": "60%"
         }
       },
-      "Average daily rate": "$400.00",
-      "Average occupancy": "80%",
-      "Average revenue": "$9,600.00",
+
       "Zillow home values": "30% 5-year historical average"
     },
     {
@@ -422,11 +436,14 @@
         "Expected Payout Date": "May 2024"
       },
       "Financing": {
+        "Average daily rate": "$350.00",
+        "Average occupancy": "75%",
+        "Average revenue": "$7,875.00",
         "Loan-to-Value (LTV)": "65%",
         "Interest rate": "4.2%",
         "Loan term": "25 yrs"
       },
-      "The market": {
+      "theMarket": {
         "Lake Tahoe, California": {
           "Market grade": "A",
           "Rental demand": "80%",
@@ -436,9 +453,7 @@
           "Revenue growth": "50%"
         }
       },
-      "Average daily rate": "$350.00",
-      "Average occupancy": "75%",
-      "Average revenue": "$7,875.00",
+
       "Zillow home values": "22% 5-year historical average"
     },
     {
@@ -485,11 +500,14 @@
         "Expected Payout Date": "June 2024"
       },
       "Financing": {
+        "Average daily rate": "$600.00",
+        "Average occupancy": "80%",
+        "Average revenue": "$14,400.00",
         "Loan-to-Value (LTV)": "70%",
         "Interest rate": "3.9%",
         "Loan term": "30 yrs"
       },
-      "The market": {
+      "theMarket": {
         "Maui, Hawaii": {
           "Market grade": "A+",
           "Rental demand": "90%",
@@ -499,9 +517,7 @@
           "Revenue growth": "55%"
         }
       },
-      "Average daily rate": "$600.00",
-      "Average occupancy": "80%",
-      "Average revenue": "$14,400.00",
+
       "Zillow home values": "28% 5-year historical average"
     },
     {
@@ -546,11 +562,14 @@
         "Expected Payout Date": "July 2024"
       },
       "Financing": {
+        "Average daily rate": "$250.00",
+        "Average occupancy": "75%",
+        "Average revenue": "$5,625.00",
         "Loan-to-Value (LTV)": "75%",
         "Interest rate": "3.8%",
         "Loan term": "30 yrs"
       },
-      "The market": {
+      "theMarket": {
         "Chicago, Illinois": {
           "Market grade": "A",
           "Rental demand": "85%",
@@ -560,9 +579,7 @@
           "Revenue growth": "35%"
         }
       },
-      "Average daily rate": "$250.00",
-      "Average occupancy": "75%",
-      "Average revenue": "$5,625.00",
+
       "Zillow home values": "18% 5-year historical average"
     },
     {
@@ -608,11 +625,14 @@
         "Expected Payout Date": "August 2024"
       },
       "Financing": {
+        "Average daily rate": "$800.00",
+        "Average occupancy": "90%",
+        "Average revenue": "$21,600.00",
         "Loan-to-Value (LTV)": "60%",
         "Interest rate": "4.5%",
         "Loan term": "25 yrs"
       },
-      "The market": {
+      "theMarket": {
         "Bali, Indonesia": {
           "Market grade": "A+",
           "Rental demand": "95%",
@@ -622,9 +642,7 @@
           "Revenue growth": "70%"
         }
       },
-      "Average daily rate": "$800.00",
-      "Average occupancy": "90%",
-      "Average revenue": "$21,600.00",
+
       "Zillow home values": "35% 5-year historical average"
     },
     {
@@ -670,11 +688,14 @@
         "Overview": "Indulge in the beauty of Bali, Indonesia, at Tropical Paradise, a luxurious 6-bedroom, 7-bathroom villa with breathtaking ocean views. This villa features a private pool, outdoor dining, a garden, and a range of amenities for a memorable stay. With its spacious living areas, elegant decor, and impeccable service, Tropical Paradise offers the perfect retreat for relaxation and rejuvenation. Guests can enjoy the rich culture, stunning beaches, and vibrant nightlife of Bali."
       },
       "Financing": {
+        "Average daily rate": "$2,500.00",
+        "Average occupancy": "60%",
+        "Average revenue": "$45,000.00",
         "Loan-to-Value (LTV)": "75%",
         "Interest rate": "4.5%",
         "Loan term": "25 yrs"
       },
-      "The market": {
+      "theMarket": {
         "Bali, Indonesia": {
           "Market grade": "B+",
           "Rental demand": "80%",
@@ -684,9 +705,7 @@
           "Revenue growth": "35%"
         }
       },
-      "Average daily rate": "$2,500.00",
-      "Average occupancy": "60%",
-      "Average revenue": "$45,000.00",
+
       "Zillow home values": "15% 5-year historical average"
     },
     {
@@ -733,11 +752,14 @@
         "Expected Payout Date": "April 2024"
       },
       "Financing": {
+        "Average daily rate": "$400.00",
+        "Average occupancy": "60%",
+        "Average revenue": "$7,200.00",
         "Loan-to-Value (LTV)": "60%",
         "Interest rate": "3.75%",
         "Loan term": "20 yrs"
       },
-      "The market": {
+      "theMarket": {
         "Lake Tahoe, California": {
           "Market grade": "B+",
           "Rental demand": "75%",
@@ -747,9 +769,7 @@
           "Revenue growth": "15%"
         }
       },
-      "Average daily rate": "$400.00",
-      "Average occupancy": "60%",
-      "Average revenue": "$7,200.00",
+
       "Zillow home values": "10% 5-year historical average"
     },
     {
@@ -796,11 +816,14 @@
         "Expected Payout Date": "April 2024"
       },
       "Financing": {
+        "Average daily rate": "$3,500.00",
+        "Average occupancy": "80%",
+        "Average revenue": "$98,000.00",
         "Loan-to-Value (LTV)": "75%",
         "Interest rate": "3.75%",
         "Loan term": "30 yrs"
       },
-      "The market": {
+      "theMarket": {
         "Maui, Hawaii": {
           "Market grade": "A+",
           "Rental demand": "95%",
@@ -810,9 +833,7 @@
           "Revenue growth": "60%"
         }
       },
-      "Average daily rate": "$3,500.00",
-      "Average occupancy": "80%",
-      "Average revenue": "$98,000.00",
+
       "Zillow home values": "22% 5-year historical average"
     },
     {
@@ -858,11 +879,14 @@
         "Expected Payout Date": "May 2023"
       },
       "Financing": {
+        "Average daily rate": "$600.00",
+        "Average occupancy": "70%",
+        "Average revenue": "$15,000.00",
         "Loan-to-Value (LTV)": "80%",
         "Interest rate": "4.25%",
         "Loan term": "20 yrs"
       },
-      "The market": {
+      "theMarket": {
         "Lake Tahoe, California": {
           "Market grade": "A",
           "Rental demand": "90%",
@@ -872,9 +896,7 @@
           "Revenue growth": "45%"
         }
       },
-      "Average daily rate": "$600.00",
-      "Average occupancy": "70%",
-      "Average revenue": "$15,000.00",
+
       "Zillow home values": "18% 5-year historical average"
     },
     {
@@ -919,11 +941,14 @@
         "Expected Payout Date": "June 2023"
       },
       "Financing": {
+        "Average daily rate": "$1,200.00",
+        "Average occupancy": "80%",
+        "Average revenue": "$28,800.00",
         "Loan-to-Value (LTV)": "75%",
         "Interest rate": "3.75%",
         "Loan term": "30 yrs"
       },
-      "The market": {
+      "theMarket": {
         "New York City, New York": {
           "Market grade": "A+",
           "Rental demand": "95%",
@@ -933,9 +958,7 @@
           "Revenue growth": "30%"
         }
       },
-      "Average daily rate": "$1,200.00",
-      "Average occupancy": "80%",
-      "Average revenue": "$28,800.00",
+
       "Zillow home values": "30% 5-year historical average"
     },
     {
@@ -981,11 +1004,14 @@
         "Expected Payout Date": "July 2023"
       },
       "Financing": {
+        "Average daily rate": "$2,500.00",
+        "Average occupancy": "90%",
+        "Average revenue": "$67,500.00",
         "Loan-to-Value (LTV)": "70%",
         "Interest rate": "4.00%",
         "Loan term": "25 yrs"
       },
-      "The market": {
+      "theMarket": {
         "Maui, Hawaii": {
           "Market grade": "A+",
           "Rental demand": "95%",
@@ -995,9 +1021,7 @@
           "Revenue growth": "35%"
         }
       },
-      "Average daily rate": "$2,500.00",
-      "Average occupancy": "90%",
-      "Average revenue": "$67,500.00",
+
       "Zillow home values": "25% 5-year historical average"
     }
   ]

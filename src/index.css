@@ -28,6 +28,18 @@
   background-color: #f1f1f1; /* Color of the track */
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  overflow: hidden;
+}
+
+.swiper-zoom-container {
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

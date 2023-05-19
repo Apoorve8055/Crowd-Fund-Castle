@@ -5,6 +5,7 @@ const propertySlice = createSlice({
   name: "property",
   initialState: {
     propertiesList: [],
+    PropertyDetails: {},
   },
   reducers: {},
   extraReducers: (builder) => {
@@ -13,5 +14,5 @@ const propertySlice = createSlice({
     });
   },
 });
-
+export const { findPropertyById } = propertySlice.actions;
 export default propertySlice.reducer;

@@ -14,7 +14,6 @@ const MasterLayout = () => {
   useEffect(() => {
     dispatch(fetchAllPropertiesList());
   }, []);
-
   return (
     <main>
       <PrivatecHeader isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
