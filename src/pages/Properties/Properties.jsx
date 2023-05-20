@@ -137,7 +137,7 @@ const Properties = () => {
         </div>
       </div>
 
-      <div className="w-auto h-85vh p-4 lg:w-7/12 dark:bg-dark-cardBgColor overflow-y-scroll scrollable-content">
+      <div className="w-auto sm:h-85vh p-4 lg:w-7/12 dark:bg-dark-cardBgColor sm:overflow-y-scroll scrollable-content">
         <div id="property" className="px-4">
           <div className="text-2xl pb-4 font-extrabold">The property</div>
           <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
