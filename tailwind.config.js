@@ -31,7 +31,8 @@ export default {
     },
     extend: {
       height: {
-        "80vh": "calc(100vh - 20vh)",
+        "85vh": "calc(100vh - 15vh)",
+        "90vh": "calc(100vh - 10vh)",
       },
       boxShadow: {
         custom: "0px 0px 16px rgba(0, 0, 0, 0.2)",

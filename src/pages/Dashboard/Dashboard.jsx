@@ -5,7 +5,7 @@ const Dashboard = () => {
   const propertiesList = useSelector((state) => state.propertiesList);
 
   return (
-    <div className="p-5 overflow-y-scroll scrollable-content">
+    <div className="p-5 h-90vh sm:h-85vh  overflow-y-scroll scrollable-content">
       <div className="text-xl pb-4 font-bold">All Properties (15)</div>
 
       {propertiesList ? (
