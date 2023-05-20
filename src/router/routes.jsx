@@ -3,6 +3,7 @@ import MasterLayout from "../pages/MasterLayout/MasterLayout";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import Properties from "../pages/Properties/Properties";
 import Portfolio from "../pages/Portfolio/Portfolio";
+import Account from "../components/Account/Account";
 
 const routes = createBrowserRouter([
   { path: "/", element: <h1>Home</h1> },
@@ -13,7 +14,7 @@ const routes = createBrowserRouter([
       { path: "", element: <Dashboard /> },
       { path: "properties/:id", element: <Properties /> },
       { path: "portfolio", element: <Portfolio /> },
-      { path: "account", element: <h1>account</h1> },
+      { path: "account", element: <Account /> },
     ],
   },
 ]);
