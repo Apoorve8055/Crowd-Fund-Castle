@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 const Footer = () => {
   return (
-    <footer className="bg-dark-cardBgColor px-16 pt-4 flex flex-col ">
+    <footer className="bg-dark-cardBgColor px-8 sm:px-16 pt-4 flex flex-col ">
       <div className="flex flex-col items-center">
         <div className="p-4 font-bold text-x1 sm:text-2xl text-dark-primaryTextColor">
           Crowd Fund Castle
