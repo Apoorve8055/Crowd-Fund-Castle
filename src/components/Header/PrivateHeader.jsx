@@ -1,4 +1,5 @@
 import { IoMenuSharp, IoSearchSharp } from "react-icons/io5";
+import { MdClose } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 
 const PrivateHeader = ({ isMenuOpen, setIsMenuOpen }) => {
@@ -21,10 +22,18 @@ const PrivateHeader = ({ isMenuOpen, setIsMenuOpen }) => {
             <IoSearchSharp className="text-2xl dark:text-light-secondaryTextColor" />
           </div>
         </div>
-        <IoMenuSharp
-          className="text-3xl sm:hidden cursor-pointer"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        />
+
+        {isMenuOpen ? (
+          <MdClose
+            className="text-3xl sm:hidden cursor-pointer"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          />
+        ) : (
+          <IoMenuSharp
+            className="text-3xl sm:hidden cursor-pointer"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          />
+        )}
       </div>
     </div>
   );

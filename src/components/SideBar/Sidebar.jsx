@@ -12,7 +12,6 @@ const SideBar = ({ isMenuOpen, setIsMenuOpen }) => {
 
   const handleMenu = (route) => {
     setIsMenuOpen(false);
-    console.log(route === "dashboard");
     navigate(`${route === "dashboard" ? "/dashboard" : "/dashboard/" + route}`);
   };
 
@@ -22,7 +21,7 @@ const SideBar = ({ isMenuOpen, setIsMenuOpen }) => {
         isMenuOpen && "translate-x-0"
       }`}
     >
-      <div className="w-screen bg-light-backgroundColor p-4 flex flex-col items-center dark:bg-dark-cardBgColor sm:m-4 sm:w-20 sm:justify-between sm:h-85vh sm:shadow-custom sm:rounded-3xl">
+      <div className="w-screen  bg-light-backgroundColor p-4 flex flex-col items-center dark:bg-dark-cardBgColor sm:m-4 sm:w-20 sm:justify-between sm:h-85vh sm:shadow-custom sm:rounded-3xl">
         <div className="flex flex-col items-start gap-8 dark:text-dark-secondaryTextColor">
           <div
             className="flex justify-center items-center gap-4 cursor-pointer"
@@ -53,7 +52,9 @@ const SideBar = ({ isMenuOpen, setIsMenuOpen }) => {
             <div className="text-2xl font-bold sm:hidden">Logout</div>
           </div>
         </div>
-        <DarkModeToggle />
+        <div className="w-60 pt-6 flex items-start sm:items-center sm:w-8">
+          <DarkModeToggle />
+        </div>
       </div>
     </aside>
   );

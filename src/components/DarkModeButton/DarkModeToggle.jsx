@@ -17,7 +17,7 @@ const DarkModeToggle = () => {
 
   return (
     <div
-      className="flex justify-center items-center gap-4 cursor-pointer mb-2 dark:text-dark-secondaryTextColor"
+      className="flex w-44 justify-center items-center gap-4 cursor-pointer mb-2 dark:text-dark-secondaryTextColor"
       onClick={() => handleToggle()}
     >
       {darkMode ? (
