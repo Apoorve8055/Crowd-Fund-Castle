@@ -9,9 +9,9 @@ const Account = () => {
   };
 
   return (
-    <div className="flex w-screen justify-center items-center pb-1">
+    <div className="flex w-screen justify-center items-center m-1">
       <div className="flex flex-col gap-1 dark:bg-dark-cardBgColor rounded-lg shadow-custom">
-        <div className="flex flex-col items-center gap-2 p-8 border-x-dark-secondaryTextColor">
+        <div className="flex flex-col items-center gap-2 p-2 border-x-dark-secondaryTextColor">
           <Avatar name="Apoorve Verma" round />
           <div className="font-bold text-2xl">Apoorve Verma</div>
           <div className="text-dark-secondaryTextColor text-xl">
