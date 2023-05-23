@@ -5,9 +5,10 @@ import Properties from "../pages/Properties/Properties";
 import Portfolio from "../pages/Portfolio/Portfolio";
 import Account from "../pages/Account/Account";
 import BuyNow from "../pages/BuyNow/BuyNow";
+import LandingPage from "../pages/LandingPage/";
 
 const routes = createBrowserRouter([
-  { path: "/", element: <h1>Home</h1> },
+  { path: "/", element: <LandingPage /> },
   {
     path: "/dashboard",
     element: <MasterLayout />,
