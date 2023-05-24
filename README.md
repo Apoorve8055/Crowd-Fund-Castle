@@ -2,6 +2,12 @@
 
 Crowd Fund Castle is a React.js based crowdfunding application for real estate projects. This application allows users to invest in real estate projects they believe in and receive a share of the profits when the project is completed. It provides a convenient platform for investing in vacation rentals like stocks.
 
+## Landing Page
+<img style="width:100%"  src="https://github.com/Apoorve8055/Crowd-Fund-Castle/blob/master/screenshots/landingpage.png" />
+
+## Dashboard Page
+<img style="width:100%"  src="https://github.com/Apoorve8055/Crowd-Fund-Castle/blob/master/screenshots/dashboard.png" />
+
 ## Installation
 
 To run Crowd Fund Castle locally, please follow these steps:
