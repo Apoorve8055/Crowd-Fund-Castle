@@ -7,7 +7,9 @@ import { useNavigate } from "react-router-dom";
 const PrivateHeader = ({ isMenuOpen, setIsMenuOpen }) => {
   const [search, setSearch] = useState("");
   const [filteredProperties, setFilteredProperties] = useState([]);
-  const propertiesList = useSelector((state) => state.propertiesList);
+  const propertiesList = useSelector(
+    (state) => state.propertySlice.propertiesList
+  );
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -24,7 +26,7 @@ const PrivateHeader = ({ isMenuOpen, setIsMenuOpen }) => {
     <div className="p-4 flex items-center justify-between shadow-custom dark:bg-dark-cardBgColor">
       <div
         className="font-DM text-2xl font-bold capitalize sm:text-3xl cursor-pointer"
-        onClick={() => navigate("/dashboard")}
+        onClick={() => navigate("/")}
       >
         Crowd Fund Castle
       </div>

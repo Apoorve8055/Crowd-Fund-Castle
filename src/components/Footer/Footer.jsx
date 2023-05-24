@@ -14,7 +14,7 @@ const Footer = () => {
     <footer className="bg-dark-cardBgColor px-8 sm:px-16 pt-4 flex flex-col">
       <div className="flex flex-col items-center">
         <div className="p-4 font-bold text-x1 sm:text-2xl text-dark-primaryTextColor">
-          {Constants.FOOTER_COMPANY_NAME}
+          {Constants.COMPANY_NAME}
         </div>
       </div>
       <div className="text-xs pb-4 text-[#ffffffce]">

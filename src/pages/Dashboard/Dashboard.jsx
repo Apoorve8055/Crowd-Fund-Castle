@@ -2,7 +2,9 @@ import { useSelector } from "react-redux";
 import Card from "../../components/Card/Card";
 
 const Dashboard = () => {
-  const propertiesList = useSelector((state) => state.propertiesList);
+  const propertiesList = useSelector(
+    (state) => state.propertySlice.propertiesList
+  );
 
   return (
     <div className="p-5 h-90vh sm:h-85vh  overflow-y-scroll scrollable-content">

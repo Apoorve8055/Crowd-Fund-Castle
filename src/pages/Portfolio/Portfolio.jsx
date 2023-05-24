@@ -14,7 +14,7 @@ const InfoBox = memo(({ title, value }) => (
 
 const Portfolio = () => {
   const navigate = useNavigate();
-  const portfolio = useSelector((state) => state.portfolio);
+  const portfolio = useSelector((state) => state.propertySlice.portfolio);
   const handleBackClick = useCallback(() => {
     navigate("/dashboard");
   }, [navigate]);

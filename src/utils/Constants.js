@@ -1,4 +1,5 @@
 //++++++++++++ Common Constant ++++++++++++++
+export const COMPANY_NAME = "Crowd Fund Castle";
 export const READ_MORE = "Read More";
 export const JOIN_NOW = "Join Now";
 
@@ -38,7 +39,6 @@ export const HOWITWORKS_STEP_3_DESCRIPTION =
   "Sit back and relax while the real estate project progresses. Earn a share of the profits when the project is completed, which includes potential rental income and property appreciation. Track your earnings through your investor dashboard.";
 
 // ++++++++++++++ Footer Section ++++++++++++
-export const FOOTER_COMPANY_NAME = "Crowd Fund Castle";
 export const FOOTER_TEXT = [
   "This website is operated by Here Investments Inc. ('the Company'), a non-registered broker-dealer. The Company does not provide investment advice, endorsement, analysis, or recommendations regarding any securities. Any securities listed on this website are offered by Here Collection LLC ('the Issuer'), and all information provided on this site is the responsibility of the Issuer. The Company has not verified the adequacy, accuracy, or completeness of the information. Neither the Company, the Issuer, their affiliates, nor any of their respective officers, directors, agents, or employees make any warranty, express or implied, regarding the adequacy, accuracy, or completeness of the information on this site or the use of such information. By accessing this site and its pages, you agree to be bound by the terms and conditions, privacy policy, and any risk factors stated in an offering circular related to the securities offered by the Issuer. This website uses the term 'share' to refer to interests in a series of Here Collection LLC.",
   "The Issuer conducts public offerings under Regulation A of the Securities Act of 1933, as amended. The most recent offering circular for Here Collection is available here.",

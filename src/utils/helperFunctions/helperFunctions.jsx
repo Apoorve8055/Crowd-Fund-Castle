@@ -10,7 +10,7 @@ export const motionHoverScale = (element, props) => (
   </motion.div>
 );
 export const motionHoverAndTap = (element, props) => (
-  <motion.div
+  <motion.button
     initial={{ scale: 1 }}
     whileHover={{ scale: 1.05 }}
     whileTap={{ scale: 0.9 }}
@@ -18,5 +18,21 @@ export const motionHoverAndTap = (element, props) => (
     {...props}
   >
     {element}
-  </motion.div>
+  </motion.button>
+);
+
+export const renderInput = (placeholder, type) => (
+  <input
+    type={type}
+    className="w-full bg-light-backgroundColor dark:bg-dark-cardBgColor py-2 px-4 border-[0.5px] outline-none"
+    placeholder={placeholder}
+  />
+);
+
+export const renderTextArea = (placeholder) => (
+  <textarea
+    placeholder={placeholder}
+    className="w-full bg-light-backgroundColor dark:bg-dark-cardBgColor py-2 px-4 border-[0.5px] outline-none"
+    rows="4"
+  ></textarea>
 );

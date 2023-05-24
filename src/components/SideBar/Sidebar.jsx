@@ -6,12 +6,16 @@ import {
   MdOutlineMoney,
 } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { userLogOut } from "../../store/userSlice";
 
 const SideBar = ({ isMenuOpen, setIsMenuOpen }) => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const handleMenu = (route) => {
     setIsMenuOpen(false);
+
     navigate(`${route === "dashboard" ? "/dashboard" : "/dashboard/" + route}`);
   };
 
@@ -46,7 +50,7 @@ const SideBar = ({ isMenuOpen, setIsMenuOpen }) => {
           </div>
           <div
             className="flex justify-center items-center gap-4 cursor-pointer"
-            onClick={handleMenu}
+            onClick={() => dispatch(userLogOut())}
           >
             <IoLogOut className="w-8 h-8 mt-2" />
             <div className="text-2xl font-bold sm:hidden">Logout</div>

@@ -24,7 +24,7 @@ const Properties = () => {
   const navigate = useNavigate();
 
   const propertyDetails = useSelector((state) =>
-    state.propertiesList.find((item) => item.id === parseInt(id))
+    state.propertySlice.propertiesList.find((item) => item.id === parseInt(id))
   );
 
   const rawPropertyData = propertyDetails?.raw_property_data || {};

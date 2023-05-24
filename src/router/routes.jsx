@@ -6,9 +6,13 @@ import Portfolio from "../pages/Portfolio/Portfolio";
 import Account from "../pages/Account/Account";
 import BuyNow from "../pages/BuyNow/BuyNow";
 import LandingPage from "../pages/LandingPage/";
+import Login from "../pages/Login.jsx/Login";
+import SignUp from "../pages/SignUp/SignUp";
 
 const routes = createBrowserRouter([
   { path: "/", element: <LandingPage /> },
+  { path: "/login", element: <Login /> },
+  { path: "/signup", element: <SignUp /> },
   {
     path: "/dashboard",
     element: <MasterLayout />,

@@ -1,6 +1,10 @@
 import { motion } from "framer-motion";
 import { MdLocationPin, MdOutlineEmail, MdPhonelinkRing } from "react-icons/md";
-import { motionHoverScale } from "../../utils/helperFunctions/helperFunctions";
+import {
+  motionHoverScale,
+  renderInput,
+  renderTextArea,
+} from "../../utils/helperFunctions/helperFunctions";
 
 const Contact = () => {
   return (
@@ -66,21 +70,5 @@ const renderContactItem = (Icon, label, text) =>
       </div>
     </div>
   );
-
-const renderInput = (placeholder, type) => (
-  <input
-    type={type}
-    className="w-full bg-light-backgroundColor dark:bg-dark-cardBgColor py-2 px-4 border-[0.5px] outline-none"
-    placeholder={placeholder}
-  />
-);
-
-const renderTextArea = (placeholder) => (
-  <textarea
-    placeholder={placeholder}
-    className="w-full bg-light-backgroundColor dark:bg-dark-cardBgColor py-2 px-4 border-[0.5px] outline-none"
-    rows="4"
-  ></textarea>
-);
 
 export default Contact;
