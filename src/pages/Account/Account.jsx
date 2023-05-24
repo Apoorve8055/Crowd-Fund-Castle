@@ -1,8 +1,10 @@
-import { useState } from "react";
+import { memo, useState } from "react";
 import Avatar from "react-avatar";
+import { useSelector } from "react-redux";
 
 const Account = () => {
   const [menu, setMenu] = useState("accountMenu");
+  const users = useSelector((state) => state.userSlice.userDetails);
 
   const handleMenuSwitch = (menu) => {
     setMenu(menu);
@@ -13,13 +15,13 @@ const Account = () => {
       <div className="flex flex-col gap-1 dark:bg-dark-cardBgColor rounded-lg shadow-custom">
         <div className="flex flex-col items-center gap-2 p-2 border-x-dark-secondaryTextColor">
           <Avatar name="Apoorve Verma" round />
-          <div className="font-bold text-2xl">Apoorve Verma</div>
+          <div className="font-bold text-2xl">{users.name}</div>
           <div className="text-dark-secondaryTextColor text-xl">
-            vapoorve@gmail.com
+            {users.email}
           </div>
         </div>
         <hr />
-        <div className="p-8 sm:w-144 h-96">
+        <div className="p-8 md:w-144 h-96">
           <div className="flex gap-4 text-dark-secondaryTextColor">
             <div
               className={`px-4 py-2 cursor-pointer ${
@@ -92,8 +94,9 @@ const Account = () => {
                 <div className="flex flex-wrap py-4 gap-4">
                   <input
                     type="email"
-                    className="w-full bg-light-backgroundColor dark:bg-dark-cardBgColor py-2 px-4 border-[0.5px] outline-none"
-                    value="vapoorve@gmail.com"
+                    className="w-full  bg-light-backgroundColor dark:bg-dark-cardBgColor py-2 px-4 border-[0.5px] outline-none"
+                    value={users.email}
+                    disabled={true}
                   />
                   <input
                     type="Password"
@@ -116,4 +119,4 @@ const Account = () => {
   );
 };
 
-export default Account;
+export default memo(Account);

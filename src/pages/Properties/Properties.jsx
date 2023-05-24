@@ -186,4 +186,4 @@ const Properties = () => {
   );
 };
 
-export default Properties;
+export default memo(Properties);

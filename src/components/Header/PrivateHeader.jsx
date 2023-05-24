@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { memo, useEffect, useState } from "react";
 import { IoMenuSharp, IoSearchSharp } from "react-icons/io5";
 import { MdClose } from "react-icons/md";
 import { useSelector } from "react-redux";
@@ -18,10 +18,12 @@ const PrivateHeader = ({ isMenuOpen, setIsMenuOpen }) => {
     );
     setFilteredProperties(filteredProp);
   }, [search, propertiesList]);
+
   const visitProperties = (id) => {
     setSearch("");
     navigate(`properties/${id}`);
   };
+
   return (
     <div className="p-4 flex items-center justify-between shadow-custom dark:bg-dark-cardBgColor">
       <div
@@ -31,8 +33,8 @@ const PrivateHeader = ({ isMenuOpen, setIsMenuOpen }) => {
         Crowd Fund Castle
       </div>
       <div className="flex gap-4 items-center">
-        <div className="hidden sm:flex flex-col items-center shadow-md rounded-lg">
-          <div className="sm:flex">
+        <div className="flex flex-col items-center shadow-md rounded-lg">
+          <div className="hidden sm:flex">
             <input
               className="rounded-l-lg bg-light-backgroundColor outline-none p-2 pl-4 dark:bg-dark-cardBgColor dark:text-light-secondaryTextColor"
               placeholder="Search for properties"
@@ -74,4 +76,4 @@ const PrivateHeader = ({ isMenuOpen, setIsMenuOpen }) => {
   );
 };
 
-export default PrivateHeader;
+export default memo(PrivateHeader);

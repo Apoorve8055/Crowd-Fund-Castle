@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
 const InfoBox = memo(({ title, value }) => (
-  <div className="flex flex-col justify-center min-w-[170px] sm:min-w-[270px]  items-center p-4 rounded-lg shadow-custom hover:scale-105 duration-300 ease-in-out dark:bg-dark-cardBgColor">
+  <div className="flex flex-col justify-center min-w-[170px] sm:min-w-[270px] items-center p-4 rounded-lg shadow-custom hover:scale-105 duration-300 ease-in-out dark:bg-dark-cardBgColor">
     <div className="pb-2">{title}</div>
     <div className="pb-2 font-bold text-2xl">
       ${Number.parseFloat(value).toFixed(2)}
@@ -24,8 +24,6 @@ const Portfolio = () => {
       ?.scrollIntoView({ behavior: "smooth", block: "center" });
   }, []);
 
-  console.log(portfolio);
-
   return (
     <div className="w-screen flex flex-col-reverse gap-8 lg:p-8 sm:flex-row sm:items-start">
       <div className="hidden w-28 lg:block">
@@ -43,7 +41,6 @@ const Portfolio = () => {
           >
             My portfolio
           </div>
-
           <div
             className="cursor-pointer hover:font-bold dark:hover:text-dark-primaryTextColor"
             onClick={() => scrollIntoView("summary")}
@@ -58,20 +55,18 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div className="w-auto h-85vh p-4 sm:py-0  overflow-y-scroll scrollable-content">
+      <div className="w-auto h-85vh p-4 sm:py-0 overflow-y-scroll scrollable-content">
         <div id="portfolio">
           <div className="text-2xl pb-4 font-extrabold">My portfolio</div>
-
           <div className="flex justify-between items-center">
-            <div className="grid grid-cols-2 text-x1 gap-4 md:grid-cols-3 font-bold text-dark-secondaryTextColor">
+            <div className="grid grid-cols-2 sm:grid-cols-3 text-x1 gap-4 font-bold text-dark-secondaryTextColor">
               ({portfolio?.totalProperty}) Properties
             </div>
-            <div className="px-3 py-1 sm:px-4 sm:py-2 sm:mr-2 text-sm  bg-dark-cardBgColor font-semibold cursor-pointer text-dark-primaryTextColor shadow-custom rounded-full">
+            <div className="px-3 py-1 sm:px-4 sm:py-2 sm:mr-2 text-sm bg-dark-cardBgColor font-semibold cursor-pointer text-dark-primaryTextColor shadow-custom rounded-full">
               Withdraw Fund
             </div>
           </div>
-
-          <div className="flex gap-4 py-4">
+          <div className="flex flex-wrap gap-4 py-4">
             <InfoBox
               title="PORTFOLIO VALUE"
               value={portfolio?.portfolio_value}
@@ -136,4 +131,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default memo(Portfolio);

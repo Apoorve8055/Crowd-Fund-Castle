@@ -6,6 +6,7 @@ import * as Constants from "../../utils/Constants";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { userLogIn } from "../../store/userSlice";
+import { memo } from "react";
 const Login = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -50,4 +51,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default memo(Login);

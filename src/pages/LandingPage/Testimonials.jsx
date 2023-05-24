@@ -37,7 +37,7 @@ const Testimonials = () => {
       <div className="font-bold text-2xl sm:text-3xl p-4">
         What our client's say
       </div>
-      <div className="flex flex-col flex-wrap sm:flex-row gap-24 sm:gap-4 pt-36 sm:py-36 mx-4">
+      <div className="flex flex-col flex-wrap sm:flex-row gap-24 sm:gap-8 pt-36 sm:py-36 mx-4 justify-center">
         {testimonials &&
           testimonials.map((item) => (
             <div className="flex flex-col bg-light-cardBgColor text-dark-backgroundColor w-80 sm:w-96 rounded-lg shadow-custom mx-6">

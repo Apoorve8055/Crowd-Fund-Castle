@@ -2,7 +2,7 @@ import { Outlet, useNavigate } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 import SideBar from "../../components/SideBar/Sidebar";
 import PrivatecHeader from "../../components/Header/PrivateHeader";
-import { useState, useEffect } from "react";
+import { useState, useEffect, memo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAllPropertiesList } from "../../store/thunk";
 
@@ -32,4 +32,4 @@ const MasterLayout = () => {
   );
 };
 
-export default MasterLayout;
+export default memo(MasterLayout);

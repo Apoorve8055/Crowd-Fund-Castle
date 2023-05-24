@@ -30,7 +30,7 @@ const HowItWork = () => {
   return (
     <section
       id="how-it-works"
-      className="flex flex-col w-screen gap-8 sm:gap-16"
+      className="flex flex-col w-screen gap-8 sm:gap-16 bg-light-backgroundColor text-dark-cardBgColor"
     >
       <div className="text-3xl pt-14 pb-2 sm:pt-28 sm:py-18 font-bold flex justify-center">
         {constants.HOWITWORKS_HEADING_TEXT}
@@ -38,14 +38,14 @@ const HowItWork = () => {
       {steps.map((step, index) => (
         <div
           key={index}
-          className={`flex gap-4 ${
+          className={`flex md:gap-16 ${
             index % 2 !== 0 ? "sm:flex-row-reverse" : ""
-          } justify-evenly items-center`}
+          } justify-center lg:justify-evenly items-center`}
         >
           {motionHoverScale(
             <img
               src={step.imgSrc}
-              className="hidden sm:block p-8 w-96 bg-blend-screen border"
+              className="hidden md:block p-8 w-96 bg-blend-screen border"
               alt={step.title}
             />
           )}

@@ -24,7 +24,7 @@ export const motionHoverAndTap = (element, props) => (
 export const renderInput = (placeholder, type) => (
   <input
     type={type}
-    className="w-full bg-light-backgroundColor dark:bg-dark-cardBgColor py-2 px-4 border-[0.5px] outline-none"
+    className="w-full bg-light-backgroundColor  py-2 px-4 border-[0.5px] outline-none"
     placeholder={placeholder}
   />
 );
@@ -32,7 +32,7 @@ export const renderInput = (placeholder, type) => (
 export const renderTextArea = (placeholder) => (
   <textarea
     placeholder={placeholder}
-    className="w-full bg-light-backgroundColor dark:bg-dark-cardBgColor py-2 px-4 border-[0.5px] outline-none"
+    className="w-full bg-light-backgroundColor py-2 px-4 border-[0.5px] outline-none"
     rows="4"
   ></textarea>
 );

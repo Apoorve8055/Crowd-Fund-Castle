@@ -4,6 +4,7 @@ import {
 } from "../../utils/helperFunctions/helperFunctions";
 import * as Constants from "../../utils/Constants";
 import { useNavigate } from "react-router-dom";
+import { memo } from "react";
 const SignUp = () => {
   const navigate = useNavigate();
   return (
@@ -38,4 +39,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default memo(SignUp);

@@ -29,13 +29,13 @@ const Hero = ({ activeMenu, onScrollToPageSection }) => {
       <div className="absolute top-0 left-0 w-full h-screen bg-dark-backgroundColor bg-opacity-60 backdrop-filter backdrop-blur-[2px]"></div>
       <div className="absolute flex mt-24 sm:mt-8 h-full sm:justify-center sm:items-center text-light-cardBgColor ">
         <div className="flex flex-col ">
-          <div className="flex font-DM font-bold text-3xl w-8/12 sm:text-5xl sm:w-6/12 ">
+          <div className="flex font-DM font-bold text-3xl w-8/12 lg:text-5xl lg:w-6/12 ">
             {constants.HERO_HEADING_TEXT}
           </div>
-          <p className="sm:text-xl text-sm font-DM py-4 w-11/12 sm:w-8/12 text-light-backgroundColor">
+          <p className="lg:text-xl text-sm font-DM py-4 w-11/12 sm:w-8/12 text-light-backgroundColor">
             {constants.HERO_PARAGRAPH_TEXT}
           </p>
-          <div className="flex flex-col sm:flex-row sm:gap-8 font-bold">
+          <div className="flex flex-col md:flex-row sm:gap-8 font-bold">
             {motionHoverAndTap(
               <div
                 className="py-4 mt-9 w-11/12 sm:w-60 flex justify-center items-center bg-dark-backgroundColor hover:bg-light-cardBgColor hover:text-dark-cardBgColor cursor-pointer"

@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import Card from "../../components/Card/Card";
 import { useSelector } from "react-redux";
+import { memo } from "react";
 
 const BuyNow = () => {
   const { id } = useParams();
@@ -14,4 +15,4 @@ const BuyNow = () => {
   );
 };
 
-export default BuyNow;
+export default memo(BuyNow);
