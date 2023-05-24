@@ -27,8 +27,8 @@ const Login = () => {
           Log in with your credentials.
         </div>
         <div className="flex flex-wrap py-2 gap-4">
-          {renderInput("Enter Email", "email")}
-          {renderInput("Enter Password", "password")}
+          {renderInput("apoove.verma@cfc.com", "email")}
+          {renderInput("********", "password")}
         </div>
         <div className="flex justify-center items-center">
           {motionHoverAndTap(
@@ -36,7 +36,7 @@ const Login = () => {
               onClick={handelLogin}
               className="px-32 sm:px-56 py-2 w-auto font-bold text-dark-primaryTextColor bg-dark-cardBgColor border border-y-dark-secondaryTextColor rounded-lg cursor-pointer hover:bg-light-backgroundColor hover:text-dark-backgroundColor transition duration-300 ease-in-out"
             >
-              Login
+              Demo Login
             </button>
           )}
         </div>
