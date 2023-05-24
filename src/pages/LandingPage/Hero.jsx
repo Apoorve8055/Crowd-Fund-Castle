@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import * as constants from "../../utils/Constants";
 import { memo } from "react";
 import HeroImg from "../../assets/hero_img.jpeg";
+import { motionHoverAndTap } from "../../utils/helperFunctions/helperFunctions";
 
 const Hero = ({ activeMenu, onScrollToPageSection }) => {
   const renderStatistics = () => {
@@ -35,25 +36,22 @@ const Hero = ({ activeMenu, onScrollToPageSection }) => {
             {constants.HERO_PARAGRAPH_TEXT}
           </p>
           <div className="flex flex-col sm:flex-row sm:gap-8 font-bold">
-            <motion.div
-              initial={{ scale: 1 }}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.9 }}
-              className="py-4 mt-9 w-11/12 sm:w-60 flex justify-center items-center bg-dark-backgroundColor hover:bg-light-cardBgColor hover:text-dark-cardBgColor cursor-pointer"
-              onClick={() => onScrollToPageSection("how-it-works")}
-            >
-              <span>{constants.READ_MORE}</span>
-            </motion.div>
-
-            <motion.div
-              initial={{ scale: 1 }}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.9 }}
-              className="py-4 mt-9 w-11/12 sm:w-60 flex justify-center items-center text-dark-backgroundColor bg-light-cardBgColor cursor-pointer hover:bg-dark-backgroundColor hover:text-light-cardBgColor"
-              onClick={() => onScrollToPageSection("join-now")}
-            >
-              <span>{constants.JOIN_NOW}</span>
-            </motion.div>
+            {motionHoverAndTap(
+              <div
+                className="py-4 mt-9 w-11/12 sm:w-60 flex justify-center items-center bg-dark-backgroundColor hover:bg-light-cardBgColor hover:text-dark-cardBgColor cursor-pointer"
+                onClick={() => onScrollToPageSection("how-it-works")}
+              >
+                <span>{constants.READ_MORE}</span>
+              </div>
+            )}
+            {motionHoverAndTap(
+              <div
+                className="py-4 mt-9 w-11/12 sm:w-60 flex justify-center items-center text-dark-backgroundColor bg-light-cardBgColor cursor-pointer hover:bg-dark-backgroundColor hover:text-light-cardBgColor"
+                onClick={() => onScrollToPageSection("join-now")}
+              >
+                <span>{constants.JOIN_NOW}</span>
+              </div>
+            )}
           </div>
           <div className="flex gap-4 mt-8 justify-start items-end text-light-backgroundColor">
             {renderStatistics()}

@@ -1,9 +1,9 @@
 import { memo } from "react";
-import { motion } from "framer-motion";
 import * as constants from "../../utils/Constants";
 import browseComputerImg from "../../assets/computer.png";
 import InvestImg from "../../assets/invest.png";
 import EarnImg from "../../assets/money.png";
+import { motionHoverScale } from "../../utils/helperFunctions/helperFunctions";
 
 const HowItWork = () => {
   return (
@@ -15,14 +15,13 @@ const HowItWork = () => {
         {constants.HOWITWORKS_HEADING_TEXT}
       </div>
       <div className="gap-4 flex justify-evenly items-center">
-        <motion.img
-          initial={{ scale: 1 }}
-          whileHover={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}
-          src={browseComputerImg}
-          className="hidden sm:block p-8 w-96 bg-blend-screen border"
-          alt="Browse Computer"
-        />
+        {motionHoverScale(
+          <img
+            src={browseComputerImg}
+            className="hidden sm:block p-8 w-96 bg-blend-screen border"
+            alt="Browse Computer"
+          />
+        )}
         <div className="flex flex-col">
           <div className="font-extrabold text-4xl">
             {constants.HOWITWORKS_STEP_1_TITLE}
@@ -37,14 +36,14 @@ const HowItWork = () => {
       </div>
 
       <div className=" flex gap-4 flex-row-reverse justify-evenly items-center">
-        <motion.img
-          initial={{ scale: 1 }}
-          whileHover={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}
-          src={InvestImg}
-          className="hidden sm:block p-8 w-96 bg-blend-screen border"
-          alt="Browse Computer"
-        />
+        {motionHoverScale(
+          <img
+            src={InvestImg}
+            className="hidden sm:block p-8 w-96 bg-blend-screen border"
+            alt="Invest"
+          />
+        )}
+
         <div className="flex flex-col ">
           <div className="font-extrabold text-4xl">
             {constants.HOWITWORKS_STEP_2_TITLE}
@@ -59,14 +58,13 @@ const HowItWork = () => {
       </div>
 
       <div className="gap-4 flex justify-evenly items-center">
-        <motion.img
-          initial={{ scale: 1 }}
-          whileHover={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}
-          src={EarnImg}
-          className="hidden sm:block p-8 w-96 bg-blend-screen border"
-          alt="Browse Computer"
-        />
+        {motionHoverScale(
+          <img
+            src={EarnImg}
+            className="hidden sm:block p-8 w-96 bg-blend-screen border"
+            alt="Earing"
+          />
+        )}
         <div className="flex flex-col">
           <div className="font-extrabold text-4xl">
             {constants.HOWITWORKS_STEP_3_TITLE}
