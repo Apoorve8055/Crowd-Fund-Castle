@@ -6,7 +6,7 @@ export const fetchAllPropertiesList = createAsyncThunk(
   async () => {
     try {
       const response = await fetch(
-        "https://raw.githubusercontent.com/Apoorve8055/Crowd-Fund-Castle/master/src/properties.json"
+        "/api/Apoorve8055/Crowd-Fund-Castle/master/src/properties.json"
       );
       const data = await response.json();
       return data?.properties;
