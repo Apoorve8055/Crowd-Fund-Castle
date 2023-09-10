@@ -54,7 +54,7 @@ To run Crowd Fund Castle locally, please follow these steps:
 - React Icons
 - React Avatar
 - Swiper
-- Vite
+- Vite.js
 - Tailwind CSS
 - Framer Motion
 
